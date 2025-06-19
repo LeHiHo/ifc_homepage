@@ -1,0 +1,875 @@
+/* 기업정보 - 회사개요 - 사업장소개 */
+#overview1_1 .placeBox {
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0 0 50px 0;
+}
+#overview1_1 .placeBox.placeBg1 {
+  background: url(../images/company/img_place1.jpg) right top no-repeat;
+  padding: 0 0 15px 0;
+}
+#overview1_1 .placeBox.placeBg2 {
+  background: url(../images/company/img_place2.jpg) left top no-repeat;
+  padding: 0 0 100px 0;
+}
+#overview1_1 .placeBox.placeBg3 {
+  background: url(../images/company/img_place3.jpg) left top no-repeat;
+  border-bottom: none;
+  margin: 0;
+}
+#overview1_1 .placeBox .tableType {
+  width: 416px;
+}
+#overview1_1 .placeBox .tableType table tbody th {
+  padding: 5px 30px;
+  font-size: 13px;
+  text-align: left;
+}
+#overview1_1 .placeBox .tableType table tbody td {
+  padding: 5px 13px;
+  font-size: 12px;
+  color: #666666;
+  line-height: 20px;
+}
+#overview1_1 .placeBox .placeBox_inner {
+  float: right;
+  padding: 35px 0 0 0;
+}
+#overview1_1 .placeBox .placeBox_inner .tableType {
+  width: 480px;
+}
+
+/* 기업정보 - 회사개요 - CI */
+#overview1_3 h1 {
+  display: block;
+  text-align: center;
+  padding: 50px 0 130px 0;
+}
+#overview1_3 .ciBox {
+  border-bottom: 1px solid #dad9d8;
+  padding: 0 0 50px 0;
+  margin: 0 0 50px 0;
+}
+#overview1_3 .ciBox .identity_list {
+  border: 1px solid #e9e9e9;
+  padding: 50px;
+}
+#overview1_3 .ciBox .identity_list ul {
+  overflow: hidden;
+}
+#overview1_3 .ciBox .identity_list li {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center top;
+  float: left;
+  width: 20%;
+  padding: 120px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+}
+#overview1_3 .ciBox .identity_list li.id1 {
+  background-image: url(../images/company/bg_corporate1.gif);
+  color: #49a2d4;
+}
+#overview1_3 .ciBox .identity_list li.id2 {
+  background-image: url(../images/company/bg_corporate2.gif);
+  color: #e7bd3e;
+}
+#overview1_3 .ciBox .identity_list li.id3 {
+  background-image: url(../images/company/bg_corporate3.gif);
+  color: #28b9b4;
+}
+#overview1_3 .ciBox .identity_list li.id4 {
+  background-image: url(../images/company/bg_corporate4.gif);
+  color: #21ab12;
+}
+#overview1_3 .ciBox .identity_list li.id5 {
+  background-image: url(../images/company/bg_corporate5.gif);
+  color: #aba6a5;
+}
+#overview1_3 .ciBox .type_list ul {
+  overflow: hidden;
+}
+#overview1_3 .ciBox .type_list ul li {
+  text-align: center;
+  width: 50%;
+  float: left;
+  margin: 0 0 95px 0;
+}
+#overview1_3 .ciBox .type_list.systemT ul li {
+  margin: 0 0 0 0;
+}
+#overview1_3 .ciBox .type_list ul li h3 {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+}
+#overview1_3 .ciBox .type_list.systemT ul li h3 {
+  font-size: 15px;
+  color: #333333;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+#overview1_3 .ciBox .type_list ul li.last {
+  width: 100%;
+  margin: 0;
+}
+
+/* 기업정보 - 회사개요 - 관계사 현황 */
+#overview1_4 .relativeBox {
+  overflow: hidden;
+  margin: 0 0 50px 0;
+}
+#overview1_4 .relativeBox .relativeCont {
+  overflow: hidden;
+  border: 1px solid #e9e9e9;
+  width: 490px;
+  background: url(../images/company/img_circuit1.jpg) left center no-repeat;
+  min-height: 209px;
+  float: left;
+}
+#overview1_4 .relativeBox .relativeCont.relativebg1 {
+  background: url(../images/company/img_circuit1.jpg) left center no-repeat;
+  margin: 0 18px 0 0;
+}
+#overview1_4 .relativeBox .relativeCont.relativebg2 {
+  background: url(../images/company/img_electronics1.jpg) left center no-repeat;
+}
+#overview1_4 .relativeBox .relativeCont .relative_text {
+  text-align: center;
+  padding: 50px 0 0 330px;
+}
+#overview1_4 .relativeBox .relativeCont .relative_text h1 {
+  font-size: 15px;
+}
+#overview1_4 .relativeBox .relativeCont .relative_text span {
+  color: #bababa;
+  display: block;
+  font-size: 15px;
+  line-height: 17px;
+  margin: 0 0 25px 0;
+}
+#overview1_4 .relativeBox .relativeCont .relative_text strong {
+}
+#overview1_4 .relative_list ul {
+  overflow: hidden;
+}
+#overview1_4 .relative_list ul li {
+  float: left;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  width: 187px;
+  height: 89px;
+  display: table;
+  margin: 0 0 0 14px;
+}
+#overview1_4 .relative_list ul li:first-child {
+  margin: 0;
+}
+#overview1_4 .relative_list ul li > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* 품질/환경/윤리경영 - 품질경영 - 품질방침 */
+#quality1_1 .policyText {
+  text-align: center;
+  margin: 0 0 75px 0;
+}
+#quality1_1 .policyText h1 {
+  padding: 50px 0;
+}
+#quality1_1 .policyText strong {
+  font-size: 16px;
+  color: #666666;
+  display: block;
+  margin: 0 0 25px 0;
+}
+#quality1_1 .policyText p.fc_kr {
+  color: #a3a3a3;
+  font-size: 15px;
+  line-height: 22px;
+}
+#quality1_1 .policyList {
+  border-top: 3px solid #2e5165;
+  border-bottom: 1px solid #ebeff0;
+  margin: 0 0 80px 0;
+}
+#quality1_1 .policyList ul {
+  overflow: hidden;
+}
+#quality1_1 .policyList ul li {
+  text-align: center;
+  float: left;
+  width: 33.333%;
+  min-height: 170px;
+  padding: 180px 0 0 0;
+}
+#quality1_1 .policyList ul li.pl1 {
+  background: url(../images/quality/bg_policy1.gif) center 70px no-repeat
+    #f5f5f5;
+}
+#quality1_1 .policyList ul li.pl2 {
+  background: url(../images/quality/bg_policy2.gif) center 70px no-repeat;
+}
+#quality1_1 .policyList ul li.pl3 {
+  background: url(../images/quality/bg_policy3.gif) center 60px no-repeat
+    #f5f5f5;
+}
+#quality1_1 .policyList ul li strong {
+  font-size: 16px;
+  color: #333333;
+  display: block;
+  height: 70px;
+  line-height: 22px;
+}
+#quality1_1 .policyList ul li p {
+  color: #777777;
+  font-size: 13px;
+  line-height: 18px;
+}
+#quality1_1 .policySign {
+  text-align: right;
+}
+#quality1_1 .policySign p {
+  display: inline-block;
+  width: 132px;
+  font-size: 14px;
+  color: #666666;
+  line-height: 18px;
+}
+#quality1_1 .policySign h2 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 30px;
+}
+#quality1_1 .policySign span {
+  display: block;
+  font-style: Italic;
+}
+
+/* 품질/환경/윤리경영 - 품질경영 - 품질경영체계 */
+#quality1_2 .systemList {
+  margin: 0 0 20px 0;
+}
+#quality1_2 .systemList ul li {
+  overflow: hidden;
+  margin: 0 0 6px 0;
+}
+#quality1_2 .systemList ul li em {
+  font-size: 13px;
+  color: #666666;
+  font-style: normal;
+  font-weight: bold;
+  display: inline-block;
+  width: 90px;
+}
+
+/* 품질/환경/윤리경영 - 품질경영 - 품질인증현황 */
+#quality1_3 .currentBox {
+  display: table;
+  width: 100%;
+  position: relative;
+}
+#quality1_3 .currentBox .currentBox_inner {
+  display: table-cell;
+  width: 100%;
+  height: 690px;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+  vertical-align: middle;
+}
+#quality1_3 .currentBox .current_title {
+  position: absolute;
+  top: -20px;
+  text-align: center;
+  width: 100%;
+}
+#quality1_3 .currentBox .current_title h2 {
+  text-align: center;
+  display: inline-block;
+  background-color: #e1e1e1;
+  font-size: 15px;
+  color: #333333;
+  padding: 13px 40px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+/* 품질/환경/윤리경영 - 품질경영 - 품질관리체계 */
+#quality1_4 .tableType table tbody td {
+  font-size: 13px;
+  color: #666666;
+  line-height: 20px;
+}
+#quality1_4 .tableType table tbody td:first-child {
+  border-left: none;
+}
+
+/* 품질/환경/윤리경영 - 환경경영 - 환경방침 */
+#environment1_1 .environmentBox {
+  background: url(../images/quality/img_environment1.jpg) left top no-repeat;
+  padding: 25px 0 25px 472px;
+  margin: 0 0 91px 0;
+}
+#environment1_1 .environmentBox h2 {
+  margin: 0 0 30px 0;
+}
+#environment1_1 .environmentBox .fc_kr {
+  line-height: 24px;
+  font-size: 15px;
+}
+#environment1_1 .environmentList ul {
+  overflow: hidden;
+}
+#environment1_1 .environmentList ul li {
+  float: left;
+  width: 50%;
+  width: 285px;
+  padding: 0 0 0 155px;
+  height: 170px;
+  margin: 0 52px 0 0;
+}
+#environment1_1 .environmentList ul li.en1 {
+  background: url(../images/quality/bg_environment1.gif) left top no-repeat;
+}
+#environment1_1 .environmentList ul li.en2 {
+  background: url(../images/quality/bg_environment2.gif) left top no-repeat;
+}
+#environment1_1 .environmentList ul li.en3 {
+  background: url(../images/quality/bg_environment3.gif) left top no-repeat;
+}
+#environment1_1 .environmentList ul li.en4 {
+  background: url(../images/quality/bg_environment4.gif) left top no-repeat;
+}
+#environment1_1 .environmentList ul li.en5 {
+  background: url(../images/quality/bg_environment5.gif) left top no-repeat;
+}
+#environment1_1 .environmentList ul li strong {
+  color: #333333;
+  font-size: 18px;
+  display: block;
+  margin: 0 0 10px 0;
+}
+#environment1_1 .environmentList ul li p {
+  line-height: 22px;
+}
+
+/* 품질/환경/윤리경영 - 환경경영 - 환경인증현황 */
+#environment1_2 .presentBox {
+  padding: 0 0 50px 0;
+  margin: 0 0 35px 0;
+  border-bottom: 1px solid #d9d8d8;
+}
+#environment1_2 .engineBox h2 {
+  background: url(../images/quality/bg_engineBox_title.gif) left center repeat-x;
+  margin: 0 0 50px 0;
+}
+#environment1_2 .engineBox h2 span {
+  background-color: #fff;
+  padding: 0 10px 0 0;
+  font-size: 18px;
+  color: #000000;
+  font-weight: normal;
+}
+#environment1_2 .engineBox h2 span b {
+  font-weight: 700;
+}
+#environment1_2 .engineCont {
+  background: url(../images/quality/bg_engineBox.gif) center top no-repeat;
+  width: 784px;
+  height: 616px;
+  margin: 0 auto;
+}
+#environment1_2 .engineCont .engineList {
+  position: relative;
+  height: 321px;
+}
+#environment1_2 .engineCont .engineList .engineText {
+  position: absolute;
+  left: 0;
+  top: 103px;
+  text-align: center;
+  width: 186px;
+}
+#environment1_2 .engineCont .engineList .engineText h3 {
+  color: #bce5fc;
+  font-size: 13px;
+}
+#environment1_2 .engineCont .engineList .engineText p {
+  color: #fff;
+  font-size: 16px;
+  margin: 5px 0 15px 0;
+}
+#environment1_2 .engineCont .engineList .engineImg {
+  position: absolute;
+  right: 122px;
+  top: 20px;
+}
+
+/* 품질/환경/윤리경영 - 환경경영 - 환경관리체계 - 대기관리 */
+.atmosphereImg {
+  float: left;
+}
+.atmosphereBox {
+  background: url(../images/quality/bg_atmosphere.jpg) left top no-repeat;
+  padding: 54px 0 54px 467px;
+  margin: 0 0 35px 0;
+}
+
+.atmosphereBox h2 {
+  margin: 0 0 10px 0;
+  color: #454545;
+  font-size: 20px;
+}
+.atmosphereBox .fc_kr {
+  line-height: 24px;
+  font-size: 15px;
+}
+
+/* 품질/환경/윤리경영 - 환경경영 - 환경관리체계 - 수질관리 */
+.atmosphereBox.warterBg {
+  background: url(../images/quality/bg_water.jpg) left top no-repeat;
+  padding: 51px 0 51px 467px;
+}
+
+/* 품질/환경/윤리경영 - 환경경영 - 환경관리체계 - 안정/방재관리 */
+.atmosphereBox.safetyBg1 {
+  background: url(../images/quality/bg_safety1.jpg) left top no-repeat;
+  padding: 0 0 0 390px;
+  margin: 0 0 0 0;
+}
+.atmosphereBox.safetyBg2 {
+  background: none;
+  padding: 0 0 0 390px;
+  margin: 0 0 0 0;
+}
+.atmosphereBox.safetyBg3 {
+  background: url(../images/quality/bg_safety3.jpg) left top no-repeat;
+  padding: 21px 0 21px 390px;
+  margin: 0 0 0 0;
+}
+.atmosphereBox.safetyBg2 .fc_kr {
+  margin: 0 0 30px 0;
+}
+#environment1_3_3 .lst_type {
+  background-color: #dedede;
+  border: 1px solid #d5d5d5;
+}
+#environment1_3_3 .lst_type h3 {
+  float: left;
+  width: 20%;
+  text-align: center;
+  color: #333333;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 32px 0;
+}
+#environment1_3_3 .lst_type ul {
+  overflow: hidden;
+  padding: 10px 15px 4px 15px;
+  background-color: #fff;
+}
+#environment1_3_3 .lst_type ul li {
+  float: left;
+  width: 33.33%;
+}
+
+/* 품질/환경/윤리경영 - 환경경영 - 환경관리체계 - 온실가스관리 */
+#environment1_3_4 .fc_info {
+  margin-bottom: 40px;
+}
+#environment1_3_4 .borderBox {
+  text-align: center;
+  padding: 60px 40px;
+}
+#environment1_3_4 .p_req {
+  margin: 0 0 30px 0;
+}
+
+/* 품질/환경/윤리경영 - 환경경영 - 분쟁물질 */
+#environment1_4 .disputeBox {
+  background: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+#environment1_4 .disputeBox strong {
+  display: block;
+  margin: 0 0 15px 0;
+}
+#environment1_4 .btn_bottom {
+  margin: 50px 0 0 0;
+}
+
+/* 품질/환경/윤리경영 - 윤리경영 - 윤리강령 */
+#ethic1_1 .fc_kr {
+  line-height: 24px;
+  color: #666666;
+  font-size: 15px;
+}
+#ethic1_1 .doctrineList ul {
+  overflow: hidden;
+}
+#ethic1_1 .doctrineList ul li {
+  float: left;
+  width: 154px;
+  margin: 0 23px;
+  padding: 225px 0 0 0;
+}
+#ethic1_1 .doctrineList ul li.do1 {
+  background: url(../images/quality/bg_doctrine1.gif) center top no-repeat;
+}
+#ethic1_1 .doctrineList ul li.do2 {
+  background: url(../images/quality/bg_doctrine2.gif) center top no-repeat;
+}
+#ethic1_1 .doctrineList ul li.do3 {
+  background: url(../images/quality/bg_doctrine3.gif) center top no-repeat;
+}
+#ethic1_1 .doctrineList ul li.do4 {
+  background: url(../images/quality/bg_doctrine4.gif) center top no-repeat;
+}
+#ethic1_1 .doctrineList ul li.do5 {
+  background: url(../images/quality/bg_doctrine5.gif) center top no-repeat;
+}
+#ethic1_1 .doctrineList ul li strong {
+  display: block;
+  color: #54acde;
+  font-size: 18px;
+  border-bottom: 1px solid #b9b9b9;
+  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
+}
+#ethic1_1 .doctrineList ul li p {
+  line-height: 20px;
+  font-size: 13px;
+  color: #666666;
+}
+
+/* 품질/환경/윤리경영 - 윤리경영 - 윤리행동지침 */
+#ethic1_2 .fc_kr {
+  line-height: 24px;
+  color: #666666;
+  font-size: 15px;
+}
+#ethic1_2 .ethicsGuide_list > ol > li {
+  font-weight: 900;
+  font-size: 15px;
+  color: #333333;
+}
+#ethic1_2 .ethicsGuide_list > ol > li > ol {
+  padding: 15px;
+}
+#ethic1_2 .ethicsGuide_list > ol > li > ol > li {
+  font-weight: 100;
+  color: #666666;
+  font-size: 13px;
+  padding: 5px 0;
+}
+
+/* 품질/환경/윤리경영 - 윤리경영 - 신고센터 */
+#ethic1_3 .informationBox {
+  background: url(../images/quality/bg_information.gif) 40px 36px no-repeat
+    #f4f4f4;
+  padding: 36px 0 16px 204px;
+}
+#ethic1_3 .informationBox .informationList ul > li {
+  color: #666666;
+  font-size: 13px;
+  font-weight: 900;
+}
+#ethic1_3 .informationBox .informationList ul li ol {
+  margin: 10px 0 20px 0;
+}
+#ethic1_3 .informationBox .informationList ul li ol li {
+  font-weight: 100;
+  margin: 0 0 5px 0;
+  font-size: 12px;
+  color: #959595;
+}
+
+/* 품질/환경/윤리경영 - AEO경영*/
+#AEO1 .aeoTitle {
+  display: inline-block;
+  width: 100%;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 23px;
+  vertical-align: bottom;
+  margin-bottom: 35px;
+  color: #333;
+}
+#AEO1 .aeoTitle::before {
+  content: "";
+  display: inline-block;
+  width: 114px;
+  height: 37px;
+  vertical-align: bottom;
+  margin-right: 5px;
+  background: url("../images/quality/img_aeo1.jpg") no-repeat 0 0 / 100% auto;
+}
+#AEO1 .aeoCont {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+#AEO1 .aeoCont h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #454545;
+}
+#AEO1 .aeoCont p:not(:last-child) {
+  margin-bottom: 8px;
+}
+#AEO1 .aeoBox {
+  counter-reset: aeo1;
+  margin-bottom: 32px;
+  padding: 40px 35px;
+  background: #f8f8f8;
+}
+#AEO1 .aeoBox p {
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  word-break: keep-all;
+  padding-left: 35px;
+  color: #333;
+}
+#AEO1 .aeoBox p::before {
+  counter-increment: aeo1;
+  content: counter(aeo1) ".";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 35px;
+}
+#AEO1 .aeoBox p:not(:last-child) {
+  margin-bottom: 25px;
+}
+#AEO1 .aeoSign {
+  position: relative;
+  text-align: right;
+}
+#AEO1 .aeoSign p {
+  display: inline-block;
+  width: 132px;
+  font-size: 14px;
+  color: #666666;
+  line-height: 18px;
+}
+#AEO1 .aeoSign p.date {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
+  transform: translateX(-50%);
+}
+#AEO1 .aeoSign h2 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 30px;
+}
+#AEO1 .aeoSign span {
+  display: block;
+  font-style: Italic;
+}
+
+/* 제품정보 공통 */
+.tab_content.info_content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.tab_content.info_content .lst_product > .cont {
+  width: 899px;
+}
+#Information.tab_content .lst_product.last220 {
+  margin-bottom: 220px;
+}
+#Information.tab_content .lst_product.last180 {
+  margin-bottom: 130px;
+}
+#Information.tab_content .lst_product.last100 {
+  margin-bottom: 100px;
+}
+#Information.tab_content .lst_product .fc_kr {
+  text-align: right;
+}
+#Etc.tab_content.tab_plasma {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+#Etc.tab_content .lst_type2 > ul {
+  overflow: hidden;
+}
+#Etc.tab_content .lst_type2 > ul > li {
+  width: 50%;
+  float: left;
+}
+#Etc.tab_content .lst_type2 > ul > li > ul {
+  padding: 0 0 0 20px;
+  height: 70px;
+}
+#Etc.tab_content .lst_type2 > ul > li > ul > li {
+  font-size: 13px;
+  color: #666666;
+  margin: 10px 0 0;
+}
+#Etc.tab_content .etcCont {
+  text-align: center;
+}
+.tableType3 table thead th span {
+  color: #47a326;
+}
+.tableType3 table thead th.th_plasma {
+  padding: 22px 0;
+}
+.tableType3 table tbody td.plasma {
+  padding: 30px 0;
+  text-align: center;
+  vertical-align: top;
+}
+.tableType3 table tbody td.plasma > img {
+  margin: 0 0 10px 0;
+}
+.tableType3 table tbody td.plasma .plasma_text {
+  text-align: left;
+  padding: 0 10px;
+}
+.tableType3 table tbody td.plasma .plasma_text ul li {
+  background: url(../images/product/bg_plasma.gif) left 9px no-repeat;
+  padding: 0 0 0 10px;
+  margin: 7px 0 0 0;
+  line-height: 18px;
+}
+.tableType3 table tbody td.plasma2 {
+  padding: 33px 0;
+}
+.tableType3 table tbody td:first-child {
+  border-left: none;
+}
+.tableType3 table tbody .l_red_bot {
+  border-bottom: 1px solid #da222f;
+}
+.tableType3 table tbody .l_red_left {
+  border-left: 1px solid #da222f;
+}
+.tableType3 table tbody .l_red_right {
+  border-right: 1px solid #da222f;
+}
+.tableType3 table tbody .bgGreen {
+  background: url(../images/information/bg_tableType3.gif) left top repeat;
+}
+.lst_type2 {
+  font-size: 13px;
+  line-height: 15px;
+}
+.lst_type2 > ul > li {
+  position: relative;
+  margin-bottom: 6px;
+  line-height: 15px;
+}
+.lst_type2 > ul > li .num {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 15px;
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ea8c27;
+  border-radius: 15px;
+}
+.lst_type2 > ul > li .t {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-left: 20px;
+  color: #333333;
+  font-weight: 900;
+}
+
+.infoList {
+  overflow: hidden;
+  margin: 0 0 20px 0;
+}
+.infoList strong {
+  background-color: #2a7aa8;
+  text-align: center;
+  width: 67px;
+  height: 31px;
+  padding: 18px 0;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  border-radius: 67px;
+  float: left;
+  margin: 20px 0;
+}
+.infoList strong span {
+  display: block;
+  font-size: 12px;
+  line-height: 15px;
+}
+.infoList p {
+  float: left;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 43px 0;
+  margin: 0 20px;
+}
+.infoList > img {
+  float: right;
+}
+
+.info_img {
+  margin: 0 0 70px 0;
+  text-align: center;
+}
+.tspCont {
+  overflow: hidden;
+}
+.tspCont .tspImg {
+  float: left;
+  margin: 0 24px 0 0;
+}
+.tspCont .tspSpac {
+  float: left;
+  width: 711px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.fc_info {
+  font-weight: 900;
+  color: #54acde;
+  font-size: 16px;
+  margin-bottom: 28px;
+  line-height: 24px;
+}
+.borderBox {
+  border: 1px solid #d5d5d5;
+  padding: 40px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.btn_bottom {
+  text-align: center;
+}
