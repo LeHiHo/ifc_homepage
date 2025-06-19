@@ -437,6 +437,13 @@
   padding: 51px 0 51px 467px;
 }
 
+/* 품질/환경/윤리경영 - 환경경영 - 환경관리체계 - 폐기물관리 */
+.atmosphereBox.wasteBg {
+  background: url(../images/quality/bg_waste.jpg) left top no-repeat;
+  padding: 51px 0 51px 467px;
+  
+}
+
 /* 품질/환경/윤리경영 - 환경경영 - 환경관리체계 - 안정/방재관리 */
 .atmosphereBox.safetyBg1 {
   background: url(../images/quality/bg_safety1.jpg) left top no-repeat;
